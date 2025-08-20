@@ -35,23 +35,11 @@ Install Java JDK 11 or newer. Check your version:
 java -version
 javac -version
 
-shell
-Copy
-Edit
-
 ### Compile
 javac Cyclone.java
 
-shell
-Copy
-Edit
-
 ### Run
 java Cyclone
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -66,10 +54,6 @@ MAIN MENU:
 3 - Clear Database
 4 - Show Cyclones
 5 - Swap Cyclones
-
-shell
-Copy
-Edit
 
 ### Example
 Please, enter the number of cyclones in the database (Max 50): 5
@@ -86,19 +70,12 @@ Hurricane Category 3: 0
 Hurricane Category 4: 0
 Hurricane Category 5: 0
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🧱 Project Structure
 Cyclone.java # main program
 README.md # documentation
 
-yaml
-Copy
-Edit
 
 ---
 
