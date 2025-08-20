@@ -32,20 +32,19 @@ Users can add or update cyclone data, generate classification summaries, clear t
 ## 🚀 Getting Started
 ### Prerequisites
 Install Java JDK 11 or newer. Check your version:  
+```bash
 java -version
 javac -version
+Compile
 
-### Compile
 javac Cyclone.java
+Run
 
-### Run
 java Cyclone
+📖 Usage
+When launched, the program asks for the number of cyclones (1–50).
+Users interact with the following menu:
 
----
-
-## 📖 Usage
-When launched, the program asks for the number of cyclones (1–50).  
-Users interact with the following menu:  
 
 MAIN MENU:
 0 - Exit
@@ -54,8 +53,8 @@ MAIN MENU:
 3 - Clear Database
 4 - Show Cyclones
 5 - Swap Cyclones
+Example
 
-### Example
 Please, enter the number of cyclones in the database (Max 50): 5
 Select an option: 1
 Enter the index (0 to 4): 0
@@ -69,33 +68,31 @@ Hurricane Category 2: 0
 Hurricane Category 3: 0
 Hurricane Category 4: 0
 Hurricane Category 5: 0
+🧱 Project Structure
 
----
+Cyclone.java   # main program
+README.md      # documentation
+📚 What I Learned
+Implemented input validation and error handling for console apps
 
-## 🧱 Project Structure
-Cyclone.java # main program
-README.md # documentation
+Practiced using arrays to manage structured datasets
 
+Built a menu-driven interface with modular methods
 
----
+Classified real-world data through conditional logic
 
-## 📚 What I Learned
-- Implemented **input validation** and error handling for console apps  
-- Practiced using **arrays** to manage structured datasets  
-- Built a **menu-driven interface** with modular methods  
-- Classified real-world data through **conditional logic**  
-- Strengthened skills in **data organization and user interaction**  
+Strengthened skills in data organization and user interaction
 
----
+🛣️ Future Improvements
+Add save/load functionality to persist data
 
-## 🛣️ Future Improvements
-- Add save/load functionality to persist data  
-- Improve handling of invalid input cases  
-- Replace arrays with a **Cyclone class** and dynamic structures  
-- Add sorting, searching, and statistical reports  
-- Implement unit testing with **JUnit**  
+Improve handling of invalid input cases
 
----
+Replace arrays with a Cyclone class and dynamic structures
 
-## 📜 License
-Educational project — free to fork, adapt, and extend with attribution. 
+Add sorting, searching, and statistical reports
+
+Implement unit testing with JUnit
+
+📜 License
+Educational project — free to fork, adapt, and extend with attribution.
