@@ -4,43 +4,61 @@
 [![Platform](https://img.shields.io/badge/Platform-Console-blue.svg)]()
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)]()
 
-A console-based application to manage a database of cyclones and classify them by wind speed using **Saffir–Simpson–style hurricane categories**.  
-Users can add or update cyclone wind speeds, generate a summary report, clear the database, swap entries, and display the entire dataset.
+A console-based program to manage a database of cyclones and classify them by wind speed using **Saffir–Simpson–style hurricane categories**.  
+Users can add or update cyclone data, generate classification summaries, clear the database, swap entries, and display all records.  
 
 > **Course:** UTSA · CS1083 · Fall 2023  
 > **Author:** Alanna Matundan  
 
+---
+
 ## ✨ Features
-- Database initialization (up to 50 cyclone records)  
-- Add/Update cyclones with input validation  
-- Classification summary by category (Depression → Cat 5)  
-- Show all cyclones (index → wind speed)  
-- Swap cyclones by index  
-- Clear database (reset all speeds)  
+- Initialize a database of up to 50 cyclone records  
+- Add or update cyclone wind speeds with input validation  
+- Generate classification summaries (Depression → Category 5)  
+- Display all cyclone records (index → wind speed)  
+- Swap cyclone entries by index  
+- Clear the database (reset all speeds)  
+
+---
 
 ## 🧰 Tech Stack
 - **Language:** Java (11+ recommended)  
-- **I/O:** Scanner for console input  
-- **Data Structure:** fixed-size integer arrays  
+- **I/O:** Scanner (console input)  
+- **Data Structure:** Fixed-size integer arrays  
+
+---
 
 ## 🚀 Getting Started
 ### Prerequisites
-Install Java JDK 11 or newer.  
-Check with:
+Install Java JDK 11 or newer. Check your version:  
 java -version
 javac -version
 
+shell
+Copy
+Edit
 
 ### Compile
 javac Cyclone.java
 
+shell
+Copy
+Edit
 
 ### Run
 java Cyclone
 
+yaml
+Copy
+Edit
+
+---
 
 ## 📖 Usage
-When you start, enter how many cyclones (1–50). Then use the menu:
+When launched, the program asks for the number of cyclones (1–50).  
+Users interact with the following menu:  
+
 MAIN MENU:
 0 - Exit
 1 - Add/Update a cyclone
@@ -49,6 +67,9 @@ MAIN MENU:
 4 - Show Cyclones
 5 - Swap Cyclones
 
+shell
+Copy
+Edit
 
 ### Example
 Please, enter the number of cyclones in the database (Max 50): 5
@@ -65,27 +86,39 @@ Hurricane Category 3: 0
 Hurricane Category 4: 0
 Hurricane Category 5: 0
 
+yaml
+Copy
+Edit
+
+---
 
 ## 🧱 Project Structure
 Cyclone.java # main program
 README.md # documentation
 
+yaml
+Copy
+Edit
+
+---
 
 ## 📚 What I Learned
-- Practiced **input validation** and error handling for user-driven programs  
-- Reinforced the use of **arrays** to store and manage structured data  
-- Designed a **menu-driven console app** with modular methods  
-- Learned to classify real-world data using **conditional logic**  
-- Improved ability to think about **data organization and user interaction**
+- Implemented **input validation** and error handling for console apps  
+- Practiced using **arrays** to manage structured datasets  
+- Built a **menu-driven interface** with modular methods  
+- Classified real-world data through **conditional logic**  
+- Strengthened skills in **data organization and user interaction**  
 
+---
 
 ## 🛣️ Future Improvements
-- Save/load data from file  
-- Handle invalid inputs more gracefully  
-- Use a Cyclone class instead of arrays  
-- Add sorting, searching, and statistics  
-- JUnit tests  
+- Add save/load functionality to persist data  
+- Improve handling of invalid input cases  
+- Replace arrays with a **Cyclone class** and dynamic structures  
+- Add sorting, searching, and statistical reports  
+- Implement unit testing with **JUnit**  
 
+---
 
 ## 📜 License
-Educational project. Free to fork & adapt with attribution. 
+Educational project — free to fork, adapt, and extend with attribution. 
