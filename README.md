@@ -36,6 +36,10 @@ Install **Java JDK 11 or newer**. Check your version:
 java -version
 javac -version
 
+# clone repo
+git clone https://github.com/LovelyShades/Cyclone_Management.git
+cd Cyclone_Management
+
 #Compile
 javac Cyclone.java
 
